@@ -1,5 +1,4 @@
-[![UY Clouds](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://uyclouds.com)
-
+[![](https://jitpack.io/v/reyim3487297072/M2Dia.svg)](https://jitpack.io/#reyim3487297072/M2Dia)
 # M2Dia
 
 <div align="center">
