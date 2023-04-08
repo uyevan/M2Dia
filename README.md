@@ -87,8 +87,7 @@ uyevan@163.com
 
 ###### gif
 
-<img title="" src="https://pan.losfer.cn/view.php/96e453d85b91c934f2f6313bcbcd45b7.gif" alt="" width="221" data-align="center">
-
+![c5b96a847e28db5356a4296bf54ca8ec](https://user-images.githubusercontent.com/92195051/230720555-a627107e-3091-408a-b02a-9b505c10558b.gif)
 
 ###### img
 
