@@ -5,30 +5,6 @@
     <img src="https://pan.losfer.cn/view.php/911f908b42b9c15bfcf1543cb45f33d8.png">
 </div>
 
-## Prerequisites
-
-Add this in your root `build.gradle` file (**not** your module `build.gradle` file):
-
-```gradle
-allprojects {
-    repositories {
-        ...
-        maven { url "https://jitpack.io" }
-    }
-}
-```
-
-## Dependency
-
-Add this to your module's `build.gradle` file (make sure the version matches the JitPack badge above):
-
-```gradle
-dependencies {
-    ...
-    implementation 'com.github.reyim3487297072:M2Dia:v1.0.0'
-}
-```
-
 ## Configuration
 
 Context, title, and type must be assigned, and other parameters can be customized and implemented. Place this anywhere in your app:
