@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">M2Dia</string>
+    <string name="success">Success</string>
+    <string name="warning">Warning</string>
+    <string name="error">Error</string>
+
+    <string name="success_title">Success Title</string>
+    <string name="warning_title">Warning Title</string>
+    <string name="error_title">Error Title</string>
+    <string name="context">Welcome to the M2Dia component library, hoping to bring you a better experience in the future.</string>
+    <string name="close">close</string>
+    <string name="confirm">confirm</string>
+</resources>
