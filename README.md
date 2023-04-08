@@ -25,7 +25,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
     ...
-    implementation 'com.github.reyim3487297072:M2Dia:1.0.0'
+    implementation 'com.github.reyim3487297072:M2Dia:v1.0.0'
 }
 ```
 
