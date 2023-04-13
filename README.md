@@ -10,15 +10,17 @@
 Context, title, and type must be assigned, and other parameters can be customized and implemented. Place this anywhere in your app:
 
 ```java
-Toasty.Config.getInstance()
-    .tintIcon(boolean tintIcon) // optional (apply textColor also to the icon)
-    .setToastTypeface(@NonNull Typeface typeface) // optional
-    .setTextSize(int sizeInSp) // optional
-    .allowQueue(boolean allowQueue) // optional (prevents several Toastys from queuing)
-    .setGravity(int gravity, int xOffset, int yOffset) // optional (set toast gravity, offsets are optional)
-    .supportDarkTheme(boolean supportDarkTheme) // optional (whether to support dark theme or not)
-    .setRTL(boolean isRTL) // optional (icon is on the right)
-    .apply(); // required
+m2Dia = M2Dia.createSuccess(MainActivity.this, getString(R.string.success_title), M2Dia.M2ButTpe.HAVE_ALL_BUT)
+                        .setContent(getString(R.string.context)) // set the context , default null
+                        .setConfirmClick(con) // confirm button click , default dismiss
+                        .setCloseClick(clo) // close button click , default dismiss
+                        .setConfirmButText("confirm T") // confirm button text , default "confirm"
+                        .setCloseButText("close T") // close button text , default "close"
+                        .setLottieJson(M2Dia.M2Type.SUCCESS, "success.json") // custom lottie , default success.json
+                        .setRepeatCount(5) // lottie count ,if 0 then only play 1 , default 0
+                        .setCancelables(false) // Allow closing by clicking the return button , default true
+                        .setCanceledOnTouchOutsides(false) // Allow closing by clicking on the screen , default true
+                        .showM2(); // show the dialog
 ```
 
 When you want to close it, you can define an M2Dia class variable and implement the following methods:
