@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                M2Dia.createSuccess(MainActivity.this, getString(R.string.success_title), M2Dia.M2ButTpe.HAVE_ALL_BUT)
+               m2Dia = M2Dia.createSuccess(MainActivity.this, getString(R.string.success_title), M2Dia.M2ButTpe.HAVE_ALL_BUT)
                         .setContent(getString(R.string.context)) // set the context , default null
                         .setConfirmClick(con) // confirm button click , default dismiss
                         .setCloseClick(clo) // close button click , default dismiss
