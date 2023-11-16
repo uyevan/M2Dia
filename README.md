@@ -2,7 +2,8 @@
 <div align="center">
     <img src="https://pan.losfer.cn/view.php/911f908b42b9c15bfcf1543cb45f33d8.png">
 </div>
-
+- 🦄 This is a Material Design 2 pop-up component developed in Java, combined with Lottie to achieve perfect pop-up functionality. It provides rich interface design and animation effects.
+- 🦄这是一个使用Java开发的Material Design 2弹出式组件，结合Lottie，可以实现完美的弹出功能。它提供了丰富的界面设计和动画效果。
 ## 🤡Configuration
 Context, title, and type must be assigned, and other parameters can be customized and implemented. Place this anywhere in your app:
 ```java
